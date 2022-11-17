@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/itera-course/static/css/main.9333d292.css",
+    "main.js": "/itera-course/static/js/main.9500faf5.js",
+    "static/js/787.e09a3ed9.chunk.js": "/itera-course/static/js/787.e09a3ed9.chunk.js",
+    "index.html": "/itera-course/index.html",
+    "main.9333d292.css.map": "/itera-course/static/css/main.9333d292.css.map",
+    "main.9500faf5.js.map": "/itera-course/static/js/main.9500faf5.js.map",
+    "787.e09a3ed9.chunk.js.map": "/itera-course/static/js/787.e09a3ed9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9333d292.css",
+    "static/js/main.9500faf5.js"
+  ]
+}
