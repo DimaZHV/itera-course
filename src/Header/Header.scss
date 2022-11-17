@@ -1,0 +1,41 @@
+.header {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	.buttons {
+		width: 90px;
+		height: 90px;
+		margin: auto;
+		border-radius: 50%;
+		cursor: pointer;
+	}
+	.slider {
+		width: 1090px;
+		margin: 0 auto;
+		overflow: hidden;
+		.slider_line {
+			width: 3120px;
+			display: flex;
+			flex-direction: row;
+			gap: 20px;
+			position: relative;
+			transition: all ease 1s;
+			left: 0px;
+			.slider_component {
+				width: 160px;
+				height: 200px;
+				border: 2px solid black;
+				border-radius: 15px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				&:hover {
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+.completed {
+	background-color: greenyellow;
+}

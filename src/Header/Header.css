@@ -1,0 +1,65 @@
+.header {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header .buttons {
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.header .slider {
+  width: 1090px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header .slider .slider_line {
+  width: 3120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+  position: relative;
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
+  left: 0px;
+}
+
+.header .slider .slider_line .slider_component {
+  width: 160px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .slider .slider_line .slider_component:hover {
+  cursor: pointer;
+}
+
+.completed {
+  background-color: greenyellow;
+}
+/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+}
+
+.main_container {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.is_completed {
+  width: 300px;
+  height: 40px;
+  margin: 50px auto;
+  border-radius: 20px;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+/*# sourceMappingURL=MainLessonCard.css.map */

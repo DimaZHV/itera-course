@@ -1,0 +1,30 @@
+.note {
+	width: 1000px;
+	margin: 30px auto 60px;
+
+	.button_note {
+		width: 1000px;
+		margin: 0 auto;
+		input {
+			width: 600px;
+			height: 50px;
+			margin-right: 30px;
+			padding-left: 30px;
+		}
+		button {
+			height: 50px;
+			cursor: pointer;
+		}
+	}
+	.notes_list {
+		.note_section {
+			margin: 20px auto 20px;
+			width: 600px;
+			height: 30px;
+			border: 3px solid red;
+			border-radius: 15px;
+			text-align: left;
+			padding-left: 30px;
+		}
+	}
+}
