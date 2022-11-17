@@ -1,6 +1,6 @@
 import React from "react";
 import { useLessonContext } from "../context/context";
-import "./MainLessonCard.css";
+import "./MainLessonCard.scss";
 import NoteComponent from "../NoteComponent/NoteComponent";
 
 const MainLessonCard = () => {

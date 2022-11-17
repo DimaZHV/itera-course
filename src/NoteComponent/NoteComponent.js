@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useLessonContext } from "../context/context";
-import "./NoteComponent.css";
+import "./NoteComponent.scss";
 
 const NoteComponent = () => {
 	const { newLessonsState, lessonIndex, postNotes } = useLessonContext();
@@ -20,7 +20,13 @@ const NoteComponent = () => {
 		<div className="note">
 			<div className="button_note">
 				<form onSubmit={notesHandler} action="">
-					<input onChange={(e) => makeNote(e)} type="text" name="" id="" />
+					<input
+						onChange={(e) => makeNote(e)}
+						placeholder="Write your note here!"
+						type="text"
+						name=""
+						id=""
+					/>
 					<button type="submit">Leave note</button>
 				</form>
 			</div>

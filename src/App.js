@@ -1,6 +1,6 @@
 import { useFetchData } from "./FetchData/useFetchData.js";
 import { useState, useEffect } from "react";
-import "./App.css";
+import "./App.scss";
 import { Context } from "./context/context.js";
 import Header from "./Header/Header";
 import MainLessonCard from "./MainLessonCard/MainLessonCard.js";
